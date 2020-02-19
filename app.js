@@ -2,13 +2,10 @@
 //We've got some basic info about Karen's home
 //Debug the type of data provided
 //Return the types concatenated in a single variable
-function moreAboutHome(a,b,c)
+function moreAboutHome(address,distanceFromTown,hasNeighbours)
 {
-	var address;
-	var distanceFromTown;
-	var hasNeighbours;
-}
-return a+b+c;
+	var condatatypes=typeof(address)+typeof(distanceFromTown)+typeof(hasNeighbours)
+	return condatatypes;
 
 //Progression 2:
 //Check if the data given is of the right type
